@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Receta tradicional de arroz con pollo">
+    <title>Receta de Arroz con Pollo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<section class="seccion-recetas">
+    <h2>Descubre otras recetas</h2>
+    <p>Busca tus platos favoritos y encuentra nuevas ideas para cocinar.</p>
+
+    <form id="formulario-recetas">
+        <input
+            type="text"
+            id="busqueda-recetas"
+            placeholder="Ejemplo: chicken, pasta, curry..."
+            aria-label="Nombre de la receta"
+            required
+        >
+        <button type="submit">Buscar recetas</button>
+    </form>
+
+    <p id="mensaje-recetas" role="status" aria-live="polite"></p>
+
+    <div id="resultados-recetas" class="resultados-recetas"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+
+<body>
+
+    <main class="recipe-card">
+
+        <header class="recipe-header">
+            <img 
+                src="images/arroz-con-pollo.jpg" 
+                alt="Plato de arroz con pollo servido con verduras"
+                class="recipe-image"
+            >
+
+            <div class="recipe-content">
+
+                <h1>Arroz con Pollo</h1>
+
+                <p class="description">
+                    Un delicioso y tradicional arroz con pollo preparado con
+                    verduras, especias y un sabroso caldo. Una receta casera,
+                    completa y perfecta para compartir en familia.
+                </p>
+
+                <section class="preparation">
+                    <h2>Tiempo de preparación</h2>
+
+                    <ul>
+                        <li>
+                            <strong>Total:</strong>
+                            1 hora y 5 minutos
+                        </li>
+
+                        <li>
+                            <strong>Preparación:</strong>
+                            20 minutos
+                        </li>
+
+                        <li>
+                            <strong>Cocción:</strong>
+                            45 minutos
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="ingredients">
+                    <h2>Ingredientes</h2>
+
+                    <ul>
+                        <li>2 tazas de arroz</li>
+                        <li>500 g de pechuga de pollo</li>
+                        <li>1 zanahoria grande</li>
+                        <li>1 taza de arvejas</li>
+                        <li>1 pimentón rojo</li>
+                        <li>1 cebolla blanca</li>
+                        <li>2 dientes de ajo</li>
+                        <li>4 tazas de caldo de pollo</li>
+                        <li>2 cucharadas de aceite vegetal</li>
+                        <li>1 cucharadita de comino</li>
+                        <li>1 cucharadita de paprika</li>
+                        <li>Sal y pimienta al gusto</li>
+                        <li>Cilantro fresco para decorar</li>
+                    </ul>
+                </section>
+
+                <section class="instructions">
+                    <h2>Instrucciones</h2>
+
+                    <ol>
+                        <li>
+                            <strong>Preparar el pollo:</strong>
+                            corta el pollo en trozos medianos y sazónalo con
+                            sal, pimienta, comino y paprika.
+                        </li>
+
+                        <li>
+                            <strong>Dorar el pollo:</strong>
+                            calienta el aceite en una olla grande y cocina el
+                            pollo hasta que esté ligeramente dorado.
+                        </li>
+
+                        <li>
+                            <strong>Agregar las verduras:</strong>
+                            incorpora la cebolla, el ajo, la zanahoria y el
+                            pimentón. Cocina durante unos minutos hasta que
+                            las verduras estén suaves.
+                        </li>
+
+                        <li>
+                            <strong>Incorporar el arroz:</strong>
+                            agrega el arroz previamente lavado y mezcla todos
+                            los ingredientes.
+                        </li>
+
+                        <li>
+                            <strong>Agregar el caldo:</strong>
+                            vierte el caldo de pollo y añade las arvejas.
+                            Mezcla cuidadosamente.
+                        </li>
+
+                        <li>
+                            <strong>Cocinar:</strong>
+                            lleva la preparación a ebullición. Luego reduce
+                            el fuego, tapa la olla y cocina durante
+                            aproximadamente 25 minutos.
+                        </li>
+
+                        <li>
+                            <strong>Reposar:</strong>
+                            apaga el fuego y deja reposar el arroz durante
+                            5 minutos antes de servir.
+                        </li>
+
+                        <li>
+                            <strong>Servir:</strong>
+                            mezcla suavemente el arroz, decora con cilantro
+                            fresco y sirve caliente.
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="nutrition">
+                    <h2>Información nutricional</h2>
+
+                    <p>
+                        Los valores nutricionales son aproximados por porción.
+                    </p>
+
+                    <div class="nutrition-table">
+
+                        <div class="nutrition-row">
+                            <span>Calorías</span>
+                            <strong>520 kcal</strong>
+                        </div>
+
+                        <div class="nutrition-row">
+                            <span>Carbohidratos</span>
+                            <strong>58 g</strong>
+                        </div>
+
+                        <div class="nutrition-row">
+                            <span>Proteínas</span>
+                            <strong>35 g</strong>
+                        </div>
+
+                        <div class="nutrition-row">
+                            <span>Grasas</span>
+                            <strong>16 g</strong>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+        </header>
+
+        <footer class="recipe-footer">
+            <p>Receta de Arroz con Pollo • Cocina casera</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
